@@ -1,0 +1,23 @@
+{
+  "name": "cucumber-practice",
+  "version": "1.0.0",
+  "description": "Use Cucumber to develop a small library that can figure out whether it’s Friday yet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AninHuang/cucumber-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AninHuang/cucumber-practice/issues"
+  },
+  "homepage": "https://github.com/AninHuang/cucumber-practice#readme",
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  }
+}
