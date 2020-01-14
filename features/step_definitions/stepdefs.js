@@ -9,21 +9,15 @@ function isItFriday(today) {
     }
 }
 
-Given('today is Sunday', function () {
-    this.today = 'Sunday';
-    // return 'pending';
+Given('today is {string}', function (givenDay) {
+    this.today = givenDay;
 });
 
 When('I ask whether it\'s Friday yet', function () {
     this.actualAnswer = isItFriday(this.today);
-    // return 'pending';
 });
 
 Then('I should be told {string}', function (expectedAnswer) {
     assert.equal(this.actualAnswer, expectedAnswer);
     // return 'pending';
-});
-
-Given('today is Friday', function () {
-    this.today = 'Friday';
 });
