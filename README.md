@@ -27,4 +27,18 @@ Feature: <title>
     Given <pre-conditions to the test>
     When <action behavior>
     Then <expectation>
+
+# Using variables and examples
+Feature: <title>
+  <brief description>
+
+  Scenario Outline: <title>
+    Given <pre-conditions to the test>
+    When <action behavior>
+    Then <expectation>
+    
+  Examples:
+    | variable_name1 | variable_value1 |
+    | variable_name2 | variable_value2 |
+    | anything else! | other_value     |
 ```
